@@ -24,5 +24,6 @@ As mentionned [here](https://quarto.org/docs/publishing/github-pages.html) quart
 5. Commit the changes
 6. run `quarto publish gh-pages`
 7. Add the `.github/workflows/publish.yml` file
+8. On your gh repository you can change the default branch to the main one 
 
 Et voilà, you're ready to go, every new commit will automatically be published on you website !

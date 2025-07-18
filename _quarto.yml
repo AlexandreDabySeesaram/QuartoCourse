@@ -21,8 +21,8 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: index.qmd
-        text: Home
+      - href: gh_publishing.qmd
+        text: GH pages
 execute:
   freeze: auto
 
