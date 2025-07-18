@@ -21,7 +21,10 @@ website:
     right:
       - href: index.qmd
         text: Home
-
+      - href: index.qmd
+        text: Home
+execute:
+  freeze: auto
 
 format:
   html:
