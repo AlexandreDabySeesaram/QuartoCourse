@@ -1,0 +1,20 @@
+---
+title: Your website
+execute:
+  freeze: auto
+toc: false
+about:
+  template: marquee
+  links:
+    - icon: github
+      text: Github
+      # href: https://github.com/polemecanique/internal_seminars
+format:
+  html:
+    page-layout: full
+---
+
+## Welcome to your new website !
+
+This is the front page !
+
