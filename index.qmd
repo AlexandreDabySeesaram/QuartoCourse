@@ -16,5 +16,5 @@ format:
 
 ## Welcome to your new website !
 
-This is the front page !
+This is the front page ! corrected
 
