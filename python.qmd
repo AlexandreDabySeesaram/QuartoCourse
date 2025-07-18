@@ -1,5 +1,7 @@
 ---
 title: Code and plots
+execute:
+  freeze: auto
 toc: false
 format:
   html:
@@ -24,7 +26,6 @@ import plotly.graph_objects as go
 import numpy as np
 import matplotlib.pyplot as plt
 
-# colors_plotly = colors[:, :3]
 
 theta = np.linspace(0, 3 * np.pi, 500)  # angle
 r = np.linspace(0, 1, 500)              # radius increases with angle
