@@ -24,7 +24,7 @@ website:
       - href: gh_publishing.qmd
         text: GH pages
       - href: python.qmd
-        text: Pyhton
+        text: Code and plots
 execute:
   freeze: auto
 
