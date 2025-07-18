@@ -23,6 +23,8 @@ website:
         text: Home
       - href: gh_publishing.qmd
         text: GH pages
+      - href: python.qmd
+        text: Pyhton
 execute:
   freeze: auto
 
@@ -32,6 +34,4 @@ format:
       light: [flatly]
       dark: [darkly]
     toc: true
-
-
 
