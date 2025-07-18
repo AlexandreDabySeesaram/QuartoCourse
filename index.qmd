@@ -14,7 +14,7 @@ bibliography: Ressources/biblio_web.bib
 
 ---
 
-## Welcome to your new website !
+## Welcome to your website !
 
 Where we can learn the basics about quarto.
 
