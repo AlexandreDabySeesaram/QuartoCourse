@@ -257,7 +257,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -290,9 +290,19 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </header> <main class="content column-page" id="quarto-document-content">
 
-<section id="welcome-to-your-new-website" class="level2">
-<h2 data-anchor-id="welcome-to-your-new-website">Welcome to your new website !</h2>
-<p>Where we can learn the basics about quarto.</p>
+<section id="github-pages" class="level2">
+<h2 data-anchor-id="github-pages">Github pages</h2>
+<p>As mentionned <a href="https://quarto.org/docs/publishing/github-pages.html">here</a> quarto works well with github pages.</p>
+<ol type="1">
+<li>Create a repository</li>
+<li>Clone it</li>
+<li>Add a minimal quarto website (<code>_quarto.yml</code> and <code>index.qmd</code>)</li>
+<li>Add <code>public/*</code> to the <code>.gitignore</code></li>
+<li>Commit the changes</li>
+<li>run <code>quarto publish gh-pages</code></li>
+<li>Add the <code>.github/workflows/publish.yml</code> file</li>
+</ol>
+<p>Et voilà, you’re ready to go, every new commit will automatically be published on you website !</p>
 
 
 </section>

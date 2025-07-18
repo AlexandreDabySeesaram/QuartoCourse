@@ -1,16 +1,30 @@
 [
   {
+    "objectID": "gh_publishing.html",
+    "href": "gh_publishing.html",
+    "title": "Your website",
+    "section": "",
+    "text": "As mentionned here quarto works well with github pages.\n\nCreate a repository\nClone it\nAdd a minimal quarto website (_quarto.yml and index.qmd)\nAdd public/* to the .gitignore\nCommit the changes\nrun quarto publish gh-pages\nAdd the .github/workflows/publish.yml file\n\nEt voilà, you’re ready to go, every new commit will automatically be published on you website !"
+  },
+  {
+    "objectID": "gh_publishing.html#github-pages",
+    "href": "gh_publishing.html#github-pages",
+    "title": "Your website",
+    "section": "",
+    "text": "As mentionned here quarto works well with github pages.\n\nCreate a repository\nClone it\nAdd a minimal quarto website (_quarto.yml and index.qmd)\nAdd public/* to the .gitignore\nCommit the changes\nrun quarto publish gh-pages\nAdd the .github/workflows/publish.yml file\n\nEt voilà, you’re ready to go, every new commit will automatically be published on you website !"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Your website",
     "section": "",
-    "text": "This is the front page ! corrected\nagain"
+    "text": "Where we can learn the basics about quarto."
   },
   {
     "objectID": "index.html#welcome-to-your-new-website",
     "href": "index.html#welcome-to-your-new-website",
     "title": "Your website",
     "section": "",
-    "text": "This is the front page ! corrected\nagain"
+    "text": "Where we can learn the basics about quarto."
   }
 ]
